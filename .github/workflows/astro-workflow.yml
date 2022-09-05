@@ -34,7 +34,7 @@ jobs:
         run: npm ci
         
       - name: Build Astro
-        run: npm run buid --if-present
+        run: npm run build --if-present
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
